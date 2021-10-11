@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">zadanie1</string>
+    <string name="button_true">Prawda</string>
+    <string name="button_false">Fałsz</string>
+    <string name="button_next">Nastepne</string>
+
+    <string name="q_ciri">Czy Ciri miała blond włosy?</string>
+    <string name="q_swords">Czy Geralt zawsze nosił przy sobie dwa miecze?</string>
+    <string name="q_triss">Czy Triss jest młodsza od Yennefer?</string>
+    <string name="q_jaskier">Czy Jskier był agentem Temerii?</string>
+    <string name="q_codex">Czy istniał wiedźmiński kodeks?</string>
+
+    <string name="correctAnswer">Dobrze! :D</string>
+    <string name="incorrectAnswer">Żle! :(</string>
+</resources>
