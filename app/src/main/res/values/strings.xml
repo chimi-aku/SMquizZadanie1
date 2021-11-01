@@ -12,4 +12,9 @@
 
     <string name="correctAnswer">Dobrze! :D</string>
     <string name="incorrectAnswer">Żle! :(</string>
+
+    <string name="czy_na_pewno_chcesz_zobaczy_odpowiedz">Czy na pewno chcesz zobaczyć odpowiedź?</string>
+    <string name="poka_odpowiedz">Pokaż odpowiedź</string>
+    <string name="podpowiedz">podpowiedz</string>
+    <string name="answer_was_shown">Odpowiedz była juz pokazana</string>
 </resources>
