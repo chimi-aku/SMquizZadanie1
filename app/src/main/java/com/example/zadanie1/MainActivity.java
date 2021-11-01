@@ -102,21 +102,23 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-
-    private void checkAnswerCorrectness(boolean userAnswer) {
-        boolean correntAnswer = questions[currentindex].isTrueAnswer();
+    private void checkAnswerCorrectness(boolean userAnswer){
+        boolean correctAnswer = questions[currentindex].isTrueAnswer();
         int resultMessageId = 0;
-        if(answerWasShow) {
+        if(answerWasShow){
             resultMessageId = R.string.answer_was_shown;
-        }
-        else {
-            if(userAnswer == correntAnswer)
+        }else {
+            if (userAnswer == correctAnswer) {
                 resultMessageId = R.string.correctAnswer;
-            else
+            } else {
                 resultMessageId = R.string.incorrectAnswer;
-            Toast.makeText(this, resultMessageId, Toast.LENGTH_SHORT).show();
+            }
         }
+        Toast.makeText(this,resultMessageId,Toast.LENGTH_SHORT).show();
+
     }
+
+
 
     private void setNextQuestion() {
         questionTextView.setText(questions[currentindex].getQuestionId());
